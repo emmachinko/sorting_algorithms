@@ -27,8 +27,6 @@ void radix_sort(int *array, size_t size);
 void bitonic_sort(int *array, size_t size);
 void quick_sort_hoare(int *array, size_t size);
 void sort_deck(deck_node_t **deck);
-void print_array(const int *array, size_t size)
-void print_list(const listint_t *list)
 void print_array(const int *array, size_t size);
 void print_list(const listint_t *list);
 listint_t *swap_node(listint_t *node, listint_t **list);
